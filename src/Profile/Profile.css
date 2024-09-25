@@ -1,0 +1,26 @@
+.profile-card {
+    background-color: #ffffff; /* White background for card */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition */
+    text-align: center; /* Center align text */
+}
+
+.profile-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.profile-name {
+    color: #00796b; /* Dark teal for the name */
+    margin-bottom: 10px;
+    font-size: 1.5rem; /* Larger font size for name */
+}
+
+.profile-email,
+.profile-username {
+    color: #555; /* Gray color for email and username */
+    margin: 5px 0; /* Spacing between lines */
+    font-size: 1rem; /* Standard font size */
+}
